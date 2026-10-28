@@ -147,6 +147,94 @@ h1{margin:2px 16px 8px;font-size:34px;font-weight:700;letter-spacing:.3px}
 .ps .pb{display:flex;justify-content:space-between;width:100%;padding:26px 44px 62px;font-size:17px}
 .ps .pb button{color:#fff;padding:6px 4px;text-shadow:0 1px 8px #0003}
 .ps #pd i{box-shadow:0 0 10px rgba(255,255,255,.25)}
+.spc{flex:none;align-self:flex-start;width:256px;max-width:82%;margin-top:4px;cursor:pointer;box-sizing:border-box}
+.spc.me{align-self:flex-end}
+.spc *{box-sizing:border-box}
+.s-r{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:4px 0}
+.s-r span{flex:none;opacity:.65}
+.s-r b{font-weight:600;text-align:right;word-break:break-word}
+.s-r b i{display:block;font-style:normal;font-weight:400;opacity:.65;font-size:11.5px}
+.sp-gls{padding:11px;border-radius:26px;background:radial-gradient(circle at 18% 12%,#6ee7b7,transparent 55%),radial-gradient(circle at 88% 18%,#93c5fd,transparent 52%),radial-gradient(circle at 55% 100%,#d8b4fe,transparent 55%),#5b8def;box-shadow:0 6px 22px rgba(30,60,120,.35)}
+.sp-gls.i{background:radial-gradient(circle at 18% 12%,#fcd34d,transparent 55%),radial-gradient(circle at 88% 18%,#f9a8d4,transparent 52%),radial-gradient(circle at 55% 100%,#c4b5fd,transparent 55%),#f472b6;box-shadow:0 6px 22px rgba(190,60,120,.35)}
+.sp-gls .s-gp{border-radius:20px;padding:14px 15px 11px;color:#fff;background:linear-gradient(145deg,rgba(255,255,255,.42),rgba(255,255,255,.14));border:1px solid rgba(255,255,255,.5);box-shadow:inset 0 1px 1px rgba(255,255,255,.75),inset 0 -1px 2px rgba(255,255,255,.15),0 8px 24px rgba(0,0,0,.12);backdrop-filter:blur(20px) saturate(1.7);-webkit-backdrop-filter:blur(20px) saturate(1.7);text-shadow:0 1px 8px rgba(0,0,0,.16)}
+.sp-gls .s-hd{display:flex;align-items:center;gap:10px}
+.sp-gls .s-ck{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex:none;background:rgba(255,255,255,.3);border:1px solid rgba(255,255,255,.6);box-shadow:inset 0 1px 1px rgba(255,255,255,.7)}
+.sp-gls .s-hd b{display:block;font-size:15px;font-weight:600}
+.sp-gls .s-hd small{display:block;font-size:11.5px;opacity:.92}
+.sp-gls .s-am{text-align:center;padding:14px 0 10px;margin-bottom:6px;border-bottom:1px dashed rgba(255,255,255,.55)}
+.sp-gls .s-am small{display:block;font-size:12px;opacity:.92}
+.sp-gls .s-am b{font-size:32px;font-weight:700;letter-spacing:-.5px}
+.sp-gls .s-rf{margin-top:6px;font-size:11px;opacity:.9;text-align:center;word-break:break-all}
+.sp-min{background:#fff;color:#111;border-radius:22px;padding:20px 18px 14px;box-shadow:0 2px 14px #0002;text-align:center}
+.sp-min .s-ck{width:46px;height:46px;border-radius:50%;margin:0 auto 8px;border:2.5px solid #22c36b;color:#22c36b;display:grid;place-items:center}
+.sp-min.i .s-ck{border-color:#0a84ff;color:#0a84ff}
+.sp-min h4{font-size:15px;font-weight:600;margin:0}
+.sp-min .s-dt{font-size:12px;color:#8e8e93;margin-top:2px}
+.sp-min .s-am{font-size:34px;font-weight:700;margin:12px 0 2px;letter-spacing:-.5px}
+.sp-min .s-am small{font-size:16px;font-weight:600;margin-right:3px}
+.sp-min hr{border:0;border-top:1px solid #eee;margin:12px 0 8px}
+.sp-min .s-r{text-align:left}
+.sp-min .s-r span{color:#8e8e93;opacity:1}
+.sp-min .s-rf{margin-top:8px;font-size:11px;color:#a0a0a8;word-break:break-all}
+.sp-grd{padding:15px;border-radius:24px;color:#fff;background:linear-gradient(135deg,#7f5af0,#3b82f6 60%,#22d3ee);box-shadow:0 6px 20px rgba(60,80,200,.4)}
+.sp-grd.i{background:linear-gradient(135deg,#f97316,#ec4899 60%,#a855f7);box-shadow:0 6px 20px rgba(220,60,120,.4)}
+.sp-grd .s-t{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.sp-grd .s-chip{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:4px 10px 4px 7px;font-size:12.5px;font-weight:600}
+.sp-grd .s-t small{font-size:11px;opacity:.92;text-align:right}
+.sp-grd .s-am{padding:16px 0 12px}
+.sp-grd .s-am small{display:block;font-size:12px;opacity:.85}
+.sp-grd .s-am b{font-size:36px;font-weight:700;letter-spacing:-.5px}
+.sp-grd .s-fl{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.16);border-radius:16px;padding:10px}
+.sp-grd .s-fl>div:not(.s-ar){flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:4px;font-size:12px;font-weight:600;text-align:center}
+.sp-grd .s-fl span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sp-grd .s-ar{flex:none;opacity:.9;display:grid;place-items:center}
+.sp-grd .s-nn{margin-top:10px;font-size:13px;background:rgba(255,255,255,.16);border-radius:12px;padding:7px 10px}
+.sp-grd .s-ft{margin-top:10px;font-size:11px;opacity:.9;display:flex;justify-content:space-between;gap:10px}
+.sp-grd .s-ft b{font-weight:600;word-break:break-all;text-align:right}
+.sp-drk{--s2:#30d158;background:linear-gradient(160deg,#16181d,#0b0c0f);color:#f2f3f5;border-radius:22px;padding:16px;border:1px solid #2a2d34;box-shadow:0 4px 20px #0006}
+.sp-drk.i{--s2:#4aa3ff}
+.sp-drk .s-t{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.sp-drk .s-pill{display:inline-flex;align-items:center;gap:6px;border-radius:20px;padding:4px 10px;font-size:12px;font-weight:600;color:var(--s2);background:color-mix(in srgb,var(--s2) 14%,transparent)}
+.sp-drk .s-pill i{width:7px;height:7px;border-radius:50%;background:var(--s2);box-shadow:0 0 8px var(--s2)}
+.sp-drk .s-t small{font-size:11px;opacity:.55;text-align:right}
+.sp-drk .s-am{padding:16px 0 12px}
+.sp-drk .s-am small{display:block;font-size:12px;opacity:.55}
+.sp-drk .s-am b{font-size:34px;font-weight:700;color:#fff;letter-spacing:-.5px;text-shadow:0 0 18px color-mix(in srgb,var(--s2) 40%,transparent)}
+.sp-drk .s-tl{background:#1c1f26;border-radius:14px;padding:10px 12px;margin-bottom:8px}
+.sp-drk .s-tl>div{position:relative;display:flex;gap:12px;padding:5px 0}
+.sp-drk .s-tl>div>i{width:10px;height:10px;border-radius:50%;background:var(--s2);margin-top:6px;flex:none;box-shadow:0 0 8px var(--s2)}
+.sp-drk .s-tl>div:first-child::after{content:"";position:absolute;left:4px;top:20px;bottom:-8px;width:2px;background:linear-gradient(var(--s2),#3a3d45)}
+.sp-drk .s-tl small{display:block;font-size:11px;opacity:.5}
+.sp-drk .s-tl b{display:block;font-size:14px;font-weight:600}
+.sp-drk .s-tl em{display:block;font-style:normal;opacity:.5;font-size:11.5px}
+.sp-drk .s-rf{margin-top:6px;font-size:11px;opacity:.45;word-break:break-all}
+.spc.sp-rcp{position:relative;margin-bottom:10px;background:#fbfaf6;color:#222;font-family:ui-monospace,Menlo,Consolas,monospace;padding:16px 14px 14px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.28))}
+.sp-rcp::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:8px;background:linear-gradient(-45deg,transparent 6px,#fbfaf6 0),linear-gradient(45deg,transparent 6px,#fbfaf6 0);background-size:12px 8px}
+.sp-rcp .s-c{text-align:center;font-weight:700;font-size:14px}
+.sp-rcp .s-c.s-sm{font-weight:400;font-size:11.5px;opacity:.7;margin-top:2px}
+.sp-rcp hr{border:0;border-top:1.5px dashed #999;margin:10px 0}
+.sp-rcp .s-big{text-align:center}
+.sp-rcp .s-big span{display:block;font-size:11.5px;opacity:.7}
+.sp-rcp .s-big b{font-size:30px;font-weight:700;letter-spacing:-1px}
+.sp-rcp .s-r span{opacity:.6}
+.sp-rcp .s-bc{height:34px;margin:10px 4px 4px;background:repeating-linear-gradient(90deg,#222 0 2px,transparent 2px 4px,#222 4px 5px,transparent 5px 8px,#222 8px 11px,transparent 11px 13px)}
+.sp-bnr{background:var(--in);border-radius:22px;overflow:hidden;box-shadow:0 2px 12px #0002}
+.sp-bnr .s-top{text-align:center;padding:20px 14px 14px;background:linear-gradient(180deg,rgba(34,195,107,.18),transparent)}
+.sp-bnr.i .s-top{background:linear-gradient(180deg,rgba(10,132,255,.18),transparent)}
+.sp-bnr .s-ring{width:54px;height:54px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;color:#fff;background:linear-gradient(145deg,#34d27b,#16a35a);box-shadow:0 0 0 6px rgba(34,195,107,.2),0 0 0 13px rgba(34,195,107,.09)}
+.sp-bnr.i .s-ring{background:linear-gradient(145deg,#4aa3ff,#2563eb);box-shadow:0 0 0 6px rgba(10,132,255,.2),0 0 0 13px rgba(10,132,255,.09)}
+.sp-bnr .s-top>b{display:block;font-size:15px;margin-top:4px}
+.sp-bnr .s-top small{display:block;color:var(--sub);font-size:11.5px;margin-top:2px}
+.sp-bnr .s-am{font-size:32px;font-weight:700;margin-top:8px;letter-spacing:-.5px}
+.sp-bnr .s-box{margin:0 12px 12px;background:var(--fill);border-radius:14px;padding:8px 12px}
+.spc.sp-cmp{width:auto;min-width:218px;display:flex;align-items:center;gap:10px;padding:10px 14px 10px 10px;border-radius:22px;background:var(--in);box-shadow:0 1px 8px #0002}
+.sp-cmp .s-ic{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;flex:none;color:#fff;background:linear-gradient(145deg,#ff6b5e,#e5392b)}
+.sp-cmp.i .s-ic{background:linear-gradient(145deg,#4be08a,#16a35a)}
+.sp-cmp .s-tx{flex:1;min-width:0}
+.sp-cmp .s-tx b{display:block;font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sp-cmp .s-tx small{display:block;color:var(--sub);font-size:11.5px}
+.sp-cmp .s-ca{font-weight:700;font-size:16px;white-space:nowrap}
+.sp-cmp.i .s-ca{color:#30d158}
 </style></head><body>
 <div id="ph"><div id="di"></div><div id="sb"></div><div id="sc"></div><div id="hi"><i></i></div></div>
 <script>
@@ -214,7 +302,7 @@ else if(V=='feed')h=feedH();else if(0)h=pg('home','หน้าหลัก','�
 else if(V=='cal')h=calH();else if(0)h=pg('home','หน้าหลัก','',plus('editEv()'),`<div class="gl">${[...S.events].sort((a,b)=>a.date>b.date?1:-1).map(e=>`<div class="rw" onclick="editEv('${e.id}')"><div style="width:46px;text-align:center;color:#ff3b30;font-size:12px;font-weight:600">${new Date(e.date).toLocaleDateString('th-TH',{month:'short'})}<div style="font-size:22px;color:var(--fg);font-weight:400">${new Date(e.date).getDate()}</div></div><b>${esc(e.title)}</b></div>`).join('')}</div>${S.events.length?'':empty('ไม่มีนัดหมาย')}`,'#ff3b30');
 else if(V=='phone')h=phoneH();else if(V=='safari')h=safariH();else if(V=='bank')h=bankH();else if(V=='maps')h=mapsH();else if(V=='igdm')h=igDmH();else if(V=='igsearch')h=igSearchH();else if(V.startsWith('igp:'))h=igPersonH(V.slice(4));else if(V=='igreels')h=igReelsH();else if(V.startsWith('xt:'))h=xTwH(V.slice(3));else if(V.startsWith('xp:'))h=xProfH(V.slice(3));else if(V=='xdm')h=xDmH();else if(V.startsWith('xchat:'))h=xChatH(V.slice(6));else if(V.startsWith('igchat:'))h=igChatH(V.slice(7));else if(V=='igprof')h=igProfH();else if(V.startsWith('igpost:'))h=igPostH(V.slice(7));else if(V=='x')h=xH();else if(V=='music')h=pg('home','หน้าหลัก','ไลบรารี',plus('editSong()'),`${npH()}<div class="gl">${S.songs.map(s=>`<div class="rw"><div class="av" style="border-radius:8px;${IMG.test(s.cover||'')?`background-image:url('${esc(s.cover)}')`:'background:linear-gradient(#fc6d7f,#f8213d)'}" onclick="playS('${s.id}')">${S.play==s.id?'⏸':(IMG.test(s.cover||'')?'':'▶')}</div><div class="f" onclick="editSong('${s.id}')"><b>${esc(s.title)}</b><small>${esc(s.artist)}</small></div></div>`).join('')}</div>${S.songs.length?'':empty('ไม่มีเพลง')}`,'#fa2d48');
 else if(V=='set')h=pg('home','หน้าหลัก','การตั้งค่า','',`<div class="gl"><div class="rw" onclick="editMe()">${avh(S.av)}<div class="f"><b style="font-size:20px">${esc(S.name)}</b><small>${esc(S.status)}</small></div>›</div></div>
-<div class="gl"><div class="rw" onclick="S.ro=S.ro?0:1;ord=false;save();R()"><div class="f">โหมดอ่านอย่างเดียว<small>ซ่อนปุ่มแก้ไขทั้งหมด กันกดพลาด</small></div><div class="sw ${S.ro?'on':''}"></div></div><div class="rw" onclick="S.dark=S.dark?0:1;save();R()"><div class="f">โหมดมืด</div><div class="sw ${S.dark?'on':''}"></div></div><div class="rw" onclick="S.island=S.island===0?1:0;save();R()"><div class="f">Dynamic Island</div><div class="sw ${S.island===0?'':'on'}"></div></div><div class="rw" onclick="editWall()"><div class="f">ภาพพื้นหลัง</div>›</div><div class="rw"><div class="f">สีธีม</div><div class="cs">${['#0a84ff','#30d158','#ff5fa2','#ff3b30'].map(c=>`<i style="background:${c}${S.ac==c?';box-shadow:0 0 0 3px var(--card),0 0 0 5px '+c:''}" onclick="S.ac='${c}';save();R()"></i>`).join('')}</div></div></div>
+<div class="gl"><div class="rw" onclick="S.ro=S.ro?0:1;ord=false;save();R()"><div class="f">โหมดอ่านอย่างเดียว<small>ซ่อนปุ่มแก้ไขทั้งหมด กันกดพลาด</small></div><div class="sw ${S.ro?'on':''}"></div></div><div class="rw" onclick="S.dark=S.dark?0:1;save();R()"><div class="f">โหมดมืด</div><div class="sw ${S.dark?'on':''}"></div></div><div class="rw" onclick="S.island=S.island===0?1:0;save();R()"><div class="f">Dynamic Island</div><div class="sw ${S.island===0?'':'on'}"></div></div><div class="rw" onclick="editWall()"><div class="f">ภาพพื้นหลัง</div>›</div><div class="rw" onclick="slipPick()"><div class="f">สไตล์สลิปโอนเงิน<small>${slipName(S.slipSt||'gls')}</small></div>›</div><div class="rw"><div class="f">สีธีม</div><div class="cs">${['#0a84ff','#30d158','#ff5fa2','#ff3b30'].map(c=>`<i style="background:${c}${S.ac==c?';box-shadow:0 0 0 3px var(--card),0 0 0 5px '+c:''}" onclick="S.ac='${c}';save();R()"></i>`).join('')}</div></div></div>
 <div class="gl"><div class="rw" style="cursor:default"><div class="f">พื้นที่ข้อมูลที่ใช้<small>${dataInfo()}</small></div></div><div class="rw" onclick="clrStk()"><div class="f">ล้างสติ๊กเกอร์ที่ไม่ได้ใช้<small>ลบรูปในคลังที่ยังไม่เคยส่งในแชท</small></div>›</div><div class="rw" onclick="editBadge()"><div class="f">ตัวเลขแจ้งเตือนบนไอคอน</div>›</div><div class="rw" onclick="exp()"><div class="f">สำรองข้อมูล (ดาวน์โหลดเป็นไฟล์)</div>›</div><div class="rw" onclick="imp()"><div class="f">นำเข้าข้อมูล (เลือกไฟล์สำรอง)</div>›</div><div class="rw" onclick="cf('รีเซ็ตข้อมูลทั้งหมด?',()=>{S=JSON.parse(JSON.stringify(D));save();go('lock')},'รีเซ็ต')" style="color:#ff453a"><div class="f">รีเซ็ตเครื่อง</div></div></div>`);
 }finally{swapBack(_a)}{const q=$('#sc');q.classList.toggle('na',V==lastV);lastV=V}$('#sc').innerHTML=h+(S.play&&V!='lock'&&V!='home'?`<div class="mp">${miniCov()}<span style="flex:1">${esc((S.songs.find(s=>s.id==S.play)||{}).title||'')}</span><button onclick="playS('${S.play}')">⏸</button></div>`:'');
 tick();const mb=$('#mb');if(mb)mb.scrollTop=1e9}
@@ -287,7 +375,7 @@ const mprev=m=>m.t||(m.img?'📷 รูปภาพ':m.stk?'🙂 สติ๊ก
 function msgB0(c,m,i){const me=m.me?'me':'',tl=!c.msgs[i+1]||c.msgs[i+1].me!=m.me?'tl':'',oc=`onclick="editMsg('${c.id}',${i})"`;
 if(m.stk)return`<div class="stk ${me}" ${oc}><img src="${esc(m.stk)}"></div>`;
 if(m.loc)return`<div class="lcb ${me}" ${oc}><div class="lmp ${m.loc.img?'im':''}" ${m.loc.img?`style="background-image:url('${esc(m.loc.img)}')"`:''}></div><div class="llt"><b>${esc(m.loc.n||'ตำแหน่งที่ตั้ง')}</b>${m.loc.a?`<small>${esc(m.loc.a)}</small>`:''}</div></div>`;
-if(m.pay){const a=m.pay,o=m.me?1:0,b=S.bank||{};return`<div class="pyc ${me} ${o?'o':'i'}" ${oc}><div class="pyh"><div class="pyi">${o?'✓':'↓'}</div><div><b>${o?'โอนเงินสำเร็จ':'ได้รับเงินแล้ว'}</b><small>${calDay(m.dt||ymd(new Date()))} ${m.tm||''}</small></div></div><div class="pya"><small>จำนวนเงิน</small><b>฿${baht(a.amt)}</b></div><div class="pyd"><div><span>${o?'ถึง':'จาก'}</span><b>${esc(a.cp||c.name)}</b></div><div><span>${o?'จาก':'ถึง'}</span><b>${esc(b.holder||S.name)}<i>${esc(b.bank||'')}</i></b></div>${a.note?`<div><span>บันทึกช่วยจำ</span><b>${esc(a.note)}</b></div>`:''}<div><span>รหัสอ้างอิง</span><b>${esc(a.ref||'')}</b></div></div></div>`}
+if(m.pay)return slipH(c,m,me,oc);
 if(m.call){const t=callT(m);return`<div class="bb cl ${me} ${m.call.k=='missed'?'ms':''} ${tl}" ${oc}><div class="ci">${m.call.v?'📹':(m.call.k=='missed'?'📵':'📞')}</div><div><b>${esc(t.t)}</b><small>${esc(t.s)}</small></div></div>`}
 return`<div class="bb ${me} ${m.img&&!m.t&&!m.rp?'im':''} ${tl}" ${oc}>${m.rp?`<div class="rq"><b>${esc(m.rp.w)}</b><span>${esc(m.rp.t)}</span></div>`:''}${m.img?`<img src="${esc(m.img)}">`:''}${c.group?mnt(c,m.t,i):esc(m.t)}</div>`}
 const msgB=(c,m,i)=>gnm(c,m,i)+anc(c,i)+msgB0(c,m,i);
@@ -343,9 +431,9 @@ o.querySelector('#cok').onclick=()=>{const sx=-ox/z,sy=-oy/z,sw=fw/z,sh=fh/z,k=M
 requestAnimationFrame(()=>lay(true))};im.src=url}
 
 const mkRef=d=>String(d||ymd(new Date())).replace(/\D/g,'')+Math.random().toString(36).slice(2,10).toUpperCase();
-function paySheet(cid,me){const c=S.chats.find(x=>x.id==cid);if(!c)return;const cp=c.group?memOf(c,{by:curBy(c)}).name:c.name;sheet(me?'โอนเงินให้ '+cp:'รับเงินจาก '+cp,[{k:'amt',l:'จำนวนเงิน (บาท)',t:'number',v:''},{k:'note',l:'บันทึกช่วยจำ (ไม่บังคับ)',v:''},{k:'bk',l:'แอพธนาคาร',t:'sel',o:[['1','บันทึกรายการลงแอพธนาคารด้วย (ยอดเงินเปลี่ยนตาม)'],['0','ไม่บันทึกในแอพธนาคาร']],v:'1'}],o=>{const amt=Math.round((+o.amt||0)*100)/100;if(!(amt>0)){alert('ใส่จำนวนเงินให้ถูกต้อง');return}
+function paySheet(cid,me){const c=S.chats.find(x=>x.id==cid);if(!c)return;const cp=c.group?memOf(c,{by:curBy(c)}).name:c.name;sheet(me?'โอนเงินให้ '+cp:'รับเงินจาก '+cp,[{k:'amt',l:'จำนวนเงิน (บาท)',t:'number',v:''},{k:'note',l:'บันทึกช่วยจำ (ไม่บังคับ)',v:''},{k:'st',l:'สไตล์สลิป',t:'sel',o:slipOpts(),v:''},{k:'bk',l:'แอพธนาคาร',t:'sel',o:[['1','บันทึกรายการลงแอพธนาคารด้วย (ยอดเงินเปลี่ยนตาม)'],['0','ไม่บันทึกในแอพธนาคาร']],v:'1'}],o=>{const amt=Math.round((+o.amt||0)*100)/100;if(!(amt>0)){alert('ใส่จำนวนเงินให้ถูกต้อง');return}
 const t=gdt();let tx='';if(o.bk=='1'){tx=uid();S.bank.txs.push({id:tx,type:me?'out':'in',who:cp,amt,note:o.note,date:t.dt,time:t.tm})}
-pushMsg(cid,{me:me?1:0,pay:{amt,note:o.note,ref:mkRef(t.dt),tx,cp:c.group?cp:''}})})}
+pushMsg(cid,{me:me?1:0,pay:{amt,note:o.note,ref:mkRef(t.dt),tx,cp:c.group?cp:'',st:o.st||''}})})}
 
 const lc=s=>String(s||'').toLowerCase();
 const igOwnP=()=>S.posts.filter(p=>!p.pid&&(!p.name||lc(p.name)==lc(S.ig.handle)||lc(p.name)==lc(S.name)));
@@ -500,13 +588,13 @@ const ordB=(a,id)=>ord?`<span onclick="event.stopPropagation()" style="display:f
 function mv(a,id,d){const L=S[a],i=L.findIndex(x=>x.id==id),j=i+d;if(j<0||j>=L.length)return;[L[i],L[j]]=[L[j],L[i]];save();R()}
 function mvBtns(L,i,re){const d=[...document.querySelectorAll('#ph>.sh')].pop();if(!d)return;const w=document.createElement('div');w.className='sg';w.style.marginTop='16px';w.innerHTML='<button>▲ เลื่อนขึ้น</button><button>▼ เลื่อนลง</button>';const g=s=>{const j=i+s;if(j<0||j>=L.length)return;[L[i],L[j]]=[L[j],L[i]];save();d.remove();R();re(j)};w.children[0].onclick=()=>g(-1);w.children[1].onclick=()=>g(1);const dl=d.querySelector('#dl');dl?dl.before(w):d.firstChild.appendChild(w)}
 function editMsg(id,i){const c=S.chats.find(x=>x.id==id),m=c.msgs[i],F=[];
-if(m.pay)F.push({k:'pa',l:'จำนวนเงิน (บาท)',t:'number',v:m.pay.amt},{k:'pn',l:'บันทึกช่วยจำ',v:m.pay.note||''},{k:'pr',l:'รหัสอ้างอิง',v:m.pay.ref||''});
+if(m.pay)F.push({k:'pa',l:'จำนวนเงิน (บาท)',t:'number',v:m.pay.amt},{k:'pn',l:'บันทึกช่วยจำ',v:m.pay.note||''},{k:'pr',l:'รหัสอ้างอิง',v:m.pay.ref||''},{k:'pst',l:'สไตล์สลิป',t:'sel',o:slipOpts(),v:m.pay.st||''});
 else if(m.loc)F.push({k:'ln',l:'ชื่อสถานที่',v:m.loc.n||''},{k:'la',l:'ที่อยู่ / รายละเอียด',t:'ta',v:m.loc.a||''},{k:'limg',l:'รูปแผนที่ (แตะเพื่อเปลี่ยน)',img:1,v:m.loc.img||''});
 else if(m.call)F.push({k:'ck',l:'ประเภทสาย',t:'sel',o:[['missed','สายที่ไม่ได้รับ / ไม่มีการตอบรับ'],['ended','การโทรสิ้นสุด (มีระยะเวลา)']],v:m.call.k},{k:'cv',l:'รูปแบบ',t:'sel',o:[['0','โทรด้วยเสียง'],['1','วิดีโอคอล']],v:m.call.v?'1':'0'},{k:'cm',l:'นาที',t:'number',v:m.call.m||0},{k:'cs',l:'วินาที',t:'number',v:m.call.s||0});
 else if(!m.stk)F.push({k:'t',l:'ข้อความ',t:'ta',v:m.t},...(m.img?[{k:'img',l:'รูปภาพ (แตะเพื่อเปลี่ยนรูป)',img:1,v:m.img}]:[]));
 if(m.rp)F.push({k:'rpt',l:'ข้อความที่อ้างอิง (กล่องตอบกลับ)',t:'ta',v:m.rp.t});
 sheet('แก้ไขข้อความ',[...F,{k:'dt',l:'วันที่',t:'date',v:m.dt||ymd(new Date())},{k:'tm',l:'เวลา',t:'time',v:m.tm},sideF(c,m)],o=>{m.dt=o.dt;m.tm=o.tm;sideSet(c,m,o);
-if(m.pay){m.pay.amt=Math.round((+o.pa||0)*100)/100;m.pay.note=o.pn;m.pay.ref=o.pr;const x=m.pay.tx&&S.bank.txs.find(y=>y.id==m.pay.tx);if(x){x.type=m.me?'out':'in';x.amt=m.pay.amt;x.note=o.pn;x.date=m.dt;x.time=m.tm}}else if(m.loc){m.loc.n=o.ln;m.loc.a=o.la;m.loc.img=o.limg}else if(m.call){m.call={k:o.ck,v:+o.cv?1:0,m:o.ck=='ended'?Math.max(0,+o.cm||0):0,s:o.ck=='ended'?Math.min(59,Math.max(0,+o.cs||0)):0}}else if(!m.stk){m.t=o.t;if('img' in o)m.img=o.img}
+if(m.pay){m.pay.amt=Math.round((+o.pa||0)*100)/100;m.pay.note=o.pn;m.pay.ref=o.pr;m.pay.st=o.pst||'';const x=m.pay.tx&&S.bank.txs.find(y=>y.id==m.pay.tx);if(x){x.type=m.me?'out':'in';x.amt=m.pay.amt;x.note=o.pn;x.date=m.dt;x.time=m.tm}}else if(m.loc){m.loc.n=o.ln;m.loc.a=o.la;m.loc.img=o.limg}else if(m.call){m.call={k:o.ck,v:+o.cv?1:0,m:o.ck=='ended'?Math.max(0,+o.cm||0):0,s:o.ck=='ended'?Math.min(59,Math.max(0,+o.cs||0)):0}}else if(!m.stk){m.t=o.t;if('img' in o)m.img=o.img}
 if(m.rp&&'rpt' in o)m.rp.t=o.rpt;save();R()},()=>{if(m.pay&&m.pay.tx)S.bank.txs=S.bank.txs.filter(y=>y.id!=m.pay.tx);c.msgs.splice(i,1);save();R()});rpBtn(id,i);mvBtns(c.msgs,i,j=>editMsg(id,j))}
 function editDmMsg(id,i){const c=S[dmK].find(x=>x.id==id),m=c.msgs[i];sheet('แก้ไขข้อความ',[{k:'t',l:'ข้อความ',t:'ta',v:m.t},...(m.sr?[{k:'sty',l:'รูปสตอรี่ที่ถูกตอบกลับ',img:1,v:m.sty||''}]:[]),...(m.img?[{k:'img',l:'รูปภาพ (แตะเพื่อเปลี่ยนรูป)',img:1,v:m.img}]:[]),{k:'dt',l:'วันที่',t:'date',v:m.dt||ymd(new Date())},{k:'tm',l:'เวลา',t:'time',v:m.tm},sideF(c,m)],o=>{sideSet(c,m,o);Object.assign(m,o);save();R()},()=>{c.msgs.splice(i,1);save();R()});mvBtns(c.msgs,i,j=>editDmMsg(id,j))}
 const fmt=(s,k)=>esc(s).replace(/(^|[\s(])([@#])([\wก-๙]+(?:\.[\wก-๙]+)*)/g,(m,a,t,n)=>`${a}<span style="color:${k=='x'?'#1d9bf0':'#3797f0'}"${t=='@'?` onclick="event.stopPropagation();openMention('${n}','${k}')"`:''}>${t}${n}</span>`);
@@ -621,6 +709,30 @@ function editAskN(id){crud('askn',id,'การแจ้งเตือน',[{k:
 function askNtH(){const L=[...S.askn].sort(byD);
 return pg('home','หน้าหลัก','แจ้งเตือน',plus('editAskN()'),`<div class="gl">${L.map(n=>{const w=n.by&&askP(n.by),nm=w?w.name:(n.an||'ผู้ใช้ไม่ระบุตัวตน'),av=w?w.av:(n.an?n.an[0]:'👤');return`<div class="rw" style="align-items:flex-start;${+n.nw?'background:rgba(224,20,63,.10)':''}" onclick="editAskN('${n.id}')">${avh(av,44)}<div class="f"><div style="font-size:15px"><b style="display:inline">${esc(nm)}</b> ${askNT[n.type]||''}</div>${n.text?`<small>${esc(n.text)}</small>`:''}</div><time>${calDay(n.date)} ${n.time||''}</time></div>`}).join('')}</div>${L.length?'':empty('ยังไม่มีการแจ้งเตือน')}${askTabs('asknt')}`,askAC)}
 function askRoute(){askMig();if(V=='askin')return askInH();if(V=='askme')return askMeH();if(V=='asknt')return askNtH();if(V.startsWith('askp:'))return askPH(V.slice(5));if(V.startsWith('askto:'))return askToH(V.slice(6));return askFeedH()}
+/* ===== Slip styles ===== */
+const SLS=[['gls','กระจก (Glass)'],['min','มินิมอล'],['grd','การ์ดไล่เฉดสี'],['drk','ดาร์ก'],['rcp','ใบเสร็จกระดาษ'],['bnr','ติ๊กถูกใหญ่'],['cmp','กะทัดรัด'],['tk','ตั๋ว (แบบเดิม)']];
+const slipName=k=>(SLS.find(s=>s[0]==k)||SLS[0])[1];
+const slipOpts=()=>[['','ตามค่าเริ่มต้น ('+slipName(S.slipSt||'gls')+')'],...SLS];
+const SLM=['ม.ค.','ก.พ.','มี.ค.','เม.ย.','พ.ค.','มิ.ย.','ก.ค.','ส.ค.','ก.ย.','ต.ค.','พ.ย.','ธ.ค.'];
+const slipDt=d=>{const p=String(d).split('-');return p.length<3||!SLM[+p[1]-1]?esc(d):(+p[2])+' '+SLM[+p[1]-1]+' '+(+p[0]+543)};
+const slipIn=n=>esc(String(n||'?').trim()[0]||'?');
+const SVG_CK=z=>`<svg viewBox="0 0 24 24" width="${z}" height="${z}" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>`;
+const SVG_AR='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+function slipH(c,m,me,oc,ov){const a=m.pay,o=m.me?1:0,b=S.bank||{},st=ov||a.st||S.slipSt||'gls',cp=a.cp||c.name||'',my=b.holder||S.name||'',fr=o?my:cp,to=o?cp:my,dt=slipDt(m.dt||ymd(new Date()))+(m.tm?' · '+m.tm:''),ttl=o?'โอนเงินสำเร็จ':'ได้รับเงินแล้ว',amt=baht(a.amt),ref=esc(a.ref||''),note=a.note?esc(a.note):'',
+nm=(n,mine)=>esc(n)+(mine&&b.bank?`<i>${esc(b.bank)}</i>`:''),row=(l,v)=>`<div class="s-r"><span>${l}</span><b>${v}</b></div>`,
+rows=row('จาก',nm(fr,o))+row('ถึง',nm(to,!o))+(note?row('บันทึกช่วยจำ',note):'')+row('ค่าธรรมเนียม','0.00 บาท'),
+cl=`spc sp-${st} ${me} ${o?'o':'i'}`;
+if(st=='min')return`<div class="${cl}" ${oc}><div class="s-ck">${SVG_CK(26)}</div><h4>${ttl}</h4><div class="s-dt">${dt}</div><div class="s-am"><small>฿</small>${amt}</div><hr>${rows}<div class="s-rf">รหัสอ้างอิง ${ref}</div></div>`;
+if(st=='grd')return`<div class="${cl}" ${oc}><div class="s-t"><span class="s-chip">${SVG_CK(13)} ${ttl}</span><small>${dt}</small></div><div class="s-am"><small>จำนวนเงิน (บาท)</small><b>${amt}</b></div><div class="s-fl"><div>${avh(slipIn(fr),36)}<span>${esc(fr)}</span></div><div class="s-ar">${SVG_AR}</div><div>${avh(slipIn(to),36)}<span>${esc(to)}</span></div></div>${note?`<div class="s-nn">${note}</div>`:''}<div class="s-ft"><span>รหัสอ้างอิง</span><b>${ref}</b></div></div>`;
+if(st=='drk')return`<div class="${cl}" ${oc}><div class="s-t"><span class="s-pill"><i></i>${o?'สำเร็จ':'ได้รับแล้ว'}</span><small>${dt}</small></div><div class="s-am"><small>${o?'โอนเงิน':'รับเงิน'}</small><b>฿${amt}</b></div><div class="s-tl"><div><i></i><div><small>จาก</small><b>${esc(fr)}</b>${o&&b.bank?`<em>${esc(b.bank)}</em>`:''}</div></div><div><i></i><div><small>ถึง</small><b>${esc(to)}</b>${!o&&b.bank?`<em>${esc(b.bank)}</em>`:''}</div></div></div>${note?row('บันทึกช่วยจำ',note):''}${row('ค่าธรรมเนียม','฿0.00')}<div class="s-rf">REF ${ref}</div></div>`;
+if(st=='rcp')return`<div class="${cl}" ${oc}><div class="s-c">ใบแจ้งการโอนเงิน</div><div class="s-c s-sm">${dt}</div><hr><div class="s-big"><span>${o?'ยอดโอน':'ยอดรับ'}</span><b>${amt}</b><span>บาท</span></div><hr>${rows}<hr><div class="s-c s-sm">${ttl}</div><div class="s-bc"></div><div class="s-c s-sm">${ref}</div></div>`;
+if(st=='bnr')return`<div class="${cl}" ${oc}><div class="s-top"><div class="s-ring">${SVG_CK(28)}</div><b>${ttl}</b><small>${dt}</small><div class="s-am">฿${amt}</div></div><div class="s-box">${rows}${row('รหัสอ้างอิง',ref)}</div></div>`;
+if(st=='cmp')return`<div class="${cl}" ${oc}><div class="s-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">${o?'<path d="M7 17 17 7M9 7h8v8"/>':'<path d="M17 7 7 17M15 17H7V9"/>'}</svg></div><div class="s-tx"><b>${o?'โอนให้ ':'รับจาก '}${esc(cp)}</b><small>${dt}</small></div><div class="s-ca">${o?'-':'+'}${amt}</div></div>`;
+if(st=='tk')return`<div class="pyc ${me} ${o?'o':'i'}" ${oc}><div class="pyh"><div class="pyi">${o?'✓':'↓'}</div><div><b>${o?'โอนเงินสำเร็จ':'ได้รับเงินแล้ว'}</b><small>${calDay(m.dt||ymd(new Date()))} ${m.tm||''}</small></div></div><div class="pya"><small>จำนวนเงิน</small><b>฿${baht(a.amt)}</b></div><div class="pyd"><div><span>${o?'ถึง':'จาก'}</span><b>${esc(a.cp||c.name)}</b></div><div><span>${o?'จาก':'ถึง'}</span><b>${esc(b.holder||S.name)}<i>${esc(b.bank||'')}</i></b></div>${a.note?`<div><span>บันทึกช่วยจำ</span><b>${esc(a.note)}</b></div>`:''}<div><span>รหัสอ้างอิง</span><b>${esc(a.ref||'')}</b></div></div></div>`;
+return`<div class="${cl}" ${oc}><div class="s-gp"><div class="s-hd"><div class="s-ck">${SVG_CK(18)}</div><div><b>${ttl}</b><small>${dt}</small></div></div><div class="s-am"><small>จำนวนเงิน</small><b>฿${amt}</b></div>${rows}<div class="s-rf">รหัสอ้างอิง ${ref}</div></div></div>`}
+function slipPick(){const d=document.createElement('div');d.className='sh';const c0=S.chats[0]||{name:'เพื่อน'},m0={me:1,dt:ymd(new Date()),tm:nowT(),pay:{amt:1250,note:'ค่าข้าว',ref:'202610270AB12CD3',cp:'',st:''}},cur=S.slipSt||'gls';
+d.innerHTML=`<div><div class="nv"><button id="no">ปิด</button><span>สไตล์สลิปโอนเงิน</span><span style="width:30px"></span></div><div style="color:var(--sub);font-size:13px;margin:6px 4px 14px">แตะเพื่อเลือกเป็นค่าเริ่มต้นของทุกสลิป ถ้าอยากเปลี่ยนเฉพาะใบ ให้แตะสลิปในแชทแล้วเลือกสไตล์</div>${SLS.map(s=>`<div data-k="${s[0]}" style="margin-bottom:20px;cursor:pointer"><div style="display:flex;justify-content:space-between;align-items:center;margin:0 4px 8px"><b>${s[1]}</b><span style="color:var(--ac);font-weight:600">${cur==s[0]?'✓ ใช้อยู่':''}</span></div><div style="display:flex;justify-content:center;pointer-events:none">${slipH(c0,m0,'','',s[0])}</div></div>`).join('')}</div>`;
+$('#ph').appendChild(d);d.querySelector('#no').onclick=()=>d.remove();d.onclick=e=>{if(e.target==d)d.remove()};d.querySelectorAll('[data-k]').forEach(e=>e.onclick=()=>{S.slipSt=e.dataset.k;save();d.remove();R()})}
 function exp(){const n=new Date(),f='phone-backup-'+ymd(n)+'-'+String(n.getHours()).padStart(2,'0')+String(n.getMinutes()).padStart(2,'0')+'.json',b=new Blob([JSON.stringify(S)],{type:'application/json'});
 try{const fl=new File([b],f,{type:'application/json'});if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&navigator.canShare&&navigator.canShare({files:[fl]})){navigator.share({files:[fl]}).catch(()=>{});return}}catch(e){}
 const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=f;document.body.appendChild(a);a.click();setTimeout(()=>{a.remove();URL.revokeObjectURL(a.href)},4000);
